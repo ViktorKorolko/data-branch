@@ -1,5 +1,21 @@
 # ClickHouse
- We have a table named data with infirmation about 
+ We have a table named ads_data with infirmation about 
+ 
+ Table structure:
+ |Column names|Description|
+ |------------|:----------|
+ |date|event date|
+ |time|event time|
+ |event|type of event (cleck or view)|
+ |platform|platform on which the advertising event took place|
+ |ad_id|advertisement id|
+ |client_union_id|advertiser id|
+ |campaign_union_id|advertising campaign|
+ |ad_cost_type|type of ad with pay-per-clicks (CPC) or per-impressions (CPM)|
+ |ad_cost|the cost of an ad in rubles, for CPC ads - per click,<br/>for CPM - the price per 1000 impressions|
+ |has_video|video availability (0 or 1)|
+ |target_audience_count|the size of the audience (quantity of people)|
+ 
  
  ### Example 1
   Calculate count all events, views, clicks, uniq advertisments and campaign by days.
