@@ -1,4 +1,4 @@
-# ClickHouse
+# ClickHouse ![ ](https://github.com/ViktorKorolko/data-branch/blob/clickhouse/img/clickhouse.jpg)
  We have a table named ads_data with infirmation about 
  
  Table structure:
@@ -28,6 +28,8 @@
 from ads_data
 group by date;
 ```
+Result:<br/>
+![Result](https://github.com/ViktorKorolko/data-branch/blob/clickhouse/img/ex1.jpg)
 
 ### Example 2
 How many percent of clicks for each platform?
@@ -42,6 +44,8 @@ from
 from ads_data
 group by platform);
 ```
+Result:<br/>
+![Result](https://github.com/ViktorKorolko/data-branch/blob/clickhouse/img/ex2.jpg)
 
 ### Example 3
 How much have we earned for each day? (we take a money for CPC and CPM)
@@ -59,3 +63,5 @@ select date, round(sum(day_cost),0) as day_earn from
        )
 group by date order by date;
 ```
+Result:<br/>
+![Result](https://github.com/ViktorKorolko/data-branch/blob/clickhouse/img/ex3.jpg)
