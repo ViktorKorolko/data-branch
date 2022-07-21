@@ -2,8 +2,7 @@
  Example:
  
 check the dataset for data quality by six dimentions (uniqueness, timeliness, completeness, validity, consistency and accuracy) <br />
-We take dataset from kaggle which contains information about parking in NYC </br>
-![ ](https://github.com/ViktorKorolko/data-branch/tree/python/img/parking.jpg)
+We take dataset from kaggle which contains information about parking in NYC ![ ](https://github.com/ViktorKorolko/data-branch/tree/python/img/park.jpg)
 
 script tested on [kaggle](https://www.kaggle.com/code/viktorkorolko/task03)
 ```
