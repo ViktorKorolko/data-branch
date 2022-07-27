@@ -1,9 +1,10 @@
 # Airflow
  Example:
-take data (from sales.csv) about sales in all countries, transform data and save to parquet file </br>
+take data (from sales.csv) about sales in all countries,save to csv file, transform data and save to parquet file </br>
 
-Result:
-checked on local source, Airflow ver. 1.10.15 </br>
+Result:<br>
+checked on local mode (Airflow ver. 1.10.15) </br>
+![ ](https://github.com/ViktorKorolko/data-branch/tree/airflow/img/exdag.jpg)
 
 DAGs code:
 ```
