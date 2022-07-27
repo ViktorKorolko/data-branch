@@ -4,7 +4,7 @@ take data (from sales.csv) about sales in all countries,save to csv file, transf
 
 Result:<br>
 checked on local mode (Airflow ver. 1.10.15) </br>
-![ ](https://github.com/ViktorKorolko/data-branch/tree/airflow/img/exdag.jpg)
+![ ](https://github.com/ViktorKorolko/data-branch/blob/airflow/img/exdag.jpg)
 
 DAGs code:
 ```
