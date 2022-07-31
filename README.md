@@ -1,4 +1,4 @@
-# data-branch
+# example-tasks
  My practical examples
 - SQL and NoSQL
     - [MySQL examples](https://github.com/ViktorKorolko/data-branch/blob/mysql/README.md)
